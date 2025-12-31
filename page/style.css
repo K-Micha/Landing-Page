@@ -58,7 +58,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
+      background: linear-gradient(135deg, #38f863, #ffffff);
   box-shadow: 0 0 0 6px rgba(56, 189, 248, .08);
   flex: 0 0 auto;
 }
