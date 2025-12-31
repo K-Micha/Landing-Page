@@ -205,3 +205,20 @@ body {
   opacity: 1;
   transform: translateX(-50%) translateY(-2px);
 }
+#portfolio-soon {
+  cursor: pointer;
+}
+.soon {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 13px;
+}
+.disabled{
+  position: relative;
+  opacity: 0.55;
+  filter: grayscale(0.6);
+}
+.disabled:hover{
+  border: 2px solid;
+  border-color: rgba(224, 51, 3, 0.976);
+}

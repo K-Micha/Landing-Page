@@ -58,3 +58,9 @@ if (openMailBtn) {
     openMailClient();
   });
 }
+// Portfolio
+const portfolioBtn = document.getElementById("portfolio-soon");
+
+portfolioBtn.addEventListener("click", () => {
+  showToast("Portfolio in progress");
+});
