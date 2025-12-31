@@ -7,7 +7,7 @@ const toast = document.getElementById("toast");
 
 function showToast(text) {
   if (!toast) {
-    alert(text); 
+    alert(text);
     return;
   }
   toast.textContent = text;
@@ -58,9 +58,3 @@ if (openMailBtn) {
     openMailClient();
   });
 }
-// Portfolio
-const portfolioBtn = document.getElementById("portfolio-soon");
-
-portfolioBtn.addEventListener("click", () => {
-  showToast("Portfolio in progress");
-});
